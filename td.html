@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple React App</title>
-  <!-- React and ReactDOM from CDN -->
-  <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/babel-standalone@6/babel.min.js" crossorigin></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./to-do.css">
 </head>
 <body>
-  <div id="root"></div>
-  <!-- Add our React script -->
-  <script type="text/babel" src="app.js"></script>
+    <div class="container">
+        <h1>Todo List</h1>
+        <input type="text" id="todoInput" placeholder="Add a new task...">
+        <button id="addTodoBtn">Add</button>
+        <ul id="todoList"></ul>
+    </div>
+    <script src="./td.js"></script>
 </body>
 </html>
- 
